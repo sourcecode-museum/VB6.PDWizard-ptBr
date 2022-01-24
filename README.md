@@ -1,7 +1,7 @@
 # VB6.PDWizard-ptBr
 Package and Deployment Wizard em Português Brasil
 
-## Copie o arquivo setup1.exe localizado na pasta build deste repositório e sigas as instruções abaixo.
+## Copie o arquivo setup1.exe localizado na raiz deste repositório e sigas as instruções abaixo.
 
 1 - Localize a pasta onde foi instalado o Visual Basic 6 (geralmente C:\Arquivos de Programas\Microsoft Visual Studio\VB98). No seu caso pode ser diferente.
 
