@@ -8,11 +8,12 @@
 *.oca
 *.log
 *.scc
-*.tmp
+vb*.tmp
 *.csi
 *.exp
 *.lib
 *.lvw
 *.dca
 *.ldb
+*.obj
 <name of built binary, exe, dll or ocx>
