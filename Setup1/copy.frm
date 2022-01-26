@@ -49,7 +49,7 @@ Begin VB.Form frmCopy
    End
    Begin VB.CommandButton cmdExit 
       Cancel          =   -1  'True
-      Caption         =   "#"
+      Caption         =   "#705"
       Default         =   -1  'True
       BeginProperty Font 
          Name            =   "Tahoma"
@@ -86,7 +86,7 @@ Begin VB.Form frmCopy
    End
    Begin VB.Label lblCopy 
       AutoSize        =   -1  'True
-      Caption         =   "#"
+      Caption         =   "#706"
       BeginProperty Font 
          Name            =   "Tahoma"
          Size            =   8.25
@@ -100,7 +100,7 @@ Begin VB.Form frmCopy
       Left            =   165
       TabIndex        =   2
       Top             =   0
-      Width           =   120
+      Width           =   390
    End
 End
 Attribute VB_Name = "frmCopy"

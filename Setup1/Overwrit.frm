@@ -1,7 +1,7 @@
 VERSION 5.00
 Begin VB.Form frmOverwrite 
    BorderStyle     =   3  'Fixed Dialog
-   Caption         =   "frmOverwrite"
+   Caption         =   "#1000"
    ClientHeight    =   3990
    ClientLeft      =   45
    ClientTop       =   330
@@ -27,7 +27,7 @@ Begin VB.Form frmOverwrite
    ShowInTaskbar   =   0   'False
    StartUpPosition =   1  'CenterOwner
    Begin VB.CommandButton cmdNoAll 
-      Caption         =   "cmdNoAll"
+      Caption         =   "cmdNoAll #1006"
       Height          =   375
       Left            =   3720
       TabIndex        =   2
@@ -35,7 +35,7 @@ Begin VB.Form frmOverwrite
       Width           =   1315
    End
    Begin VB.CommandButton cmdNo 
-      Caption         =   "cmdNo"
+      Caption         =   "cmdNo #1008"
       Height          =   375
       Left            =   2280
       TabIndex        =   1
@@ -43,7 +43,7 @@ Begin VB.Form frmOverwrite
       Width           =   1315
    End
    Begin VB.CommandButton cmdYes 
-      Caption         =   "cmdYes"
+      Caption         =   "cmdYes #1007"
       Default         =   -1  'True
       Height          =   375
       Left            =   840
@@ -53,7 +53,7 @@ Begin VB.Form frmOverwrite
    End
    Begin VB.Label lblVersion 
       BackStyle       =   0  'Transparent
-      Caption         =   "lblVersion"
+      Caption         =   "lblVersion #1004"
       Height          =   255
       Left            =   120
       TabIndex        =   7
@@ -62,7 +62,7 @@ Begin VB.Form frmOverwrite
    End
    Begin VB.Label lblDescription 
       BackStyle       =   0  'Transparent
-      Caption         =   "lblDescription"
+      Caption         =   "lblDescription #1003"
       Height          =   615
       Left            =   120
       TabIndex        =   6
@@ -71,7 +71,7 @@ Begin VB.Form frmOverwrite
    End
    Begin VB.Label lblFileName 
       BackStyle       =   0  'Transparent
-      Caption         =   "lblFileName"
+      Caption         =   "lblFileName #1002"
       Height          =   615
       Left            =   120
       TabIndex        =   5
@@ -80,7 +80,7 @@ Begin VB.Form frmOverwrite
    End
    Begin VB.Label lblCopy 
       BackStyle       =   0  'Transparent
-      Caption         =   "lblCopy"
+      Caption         =   "lblCopy #1005"
       Height          =   615
       Left            =   120
       TabIndex        =   4
@@ -89,7 +89,7 @@ Begin VB.Form frmOverwrite
    End
    Begin VB.Label lblTopInfo 
       BackStyle       =   0  'Transparent
-      Caption         =   "lblTopInfo"
+      Caption         =   "lblTopInfo #1001"
       Height          =   615
       Left            =   120
       TabIndex        =   3

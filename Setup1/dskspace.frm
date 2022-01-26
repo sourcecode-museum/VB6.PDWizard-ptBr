@@ -27,7 +27,7 @@ Begin VB.Form frmDskSpace
    ScaleWidth      =   5355
    ShowInTaskbar   =   0   'False
    Begin VB.CommandButton cmdChgDrv 
-      Caption         =   "#"
+      Caption         =   "#708"
       Default         =   -1  'True
       BeginProperty Font 
          Name            =   "Tahoma"
@@ -46,7 +46,7 @@ Begin VB.Form frmDskSpace
       Width           =   1560
    End
    Begin VB.CommandButton cmdInstall 
-      Caption         =   "#"
+      Caption         =   "#707"
       BeginProperty Font 
          Name            =   "Tahoma"
          Size            =   8.25
@@ -65,7 +65,7 @@ Begin VB.Form frmDskSpace
    End
    Begin VB.CommandButton cmdExit 
       Cancel          =   -1  'True
-      Caption         =   "#"
+      Caption         =   "#703"
       BeginProperty Font 
          Name            =   "Tahoma"
          Size            =   8.25
@@ -84,7 +84,7 @@ Begin VB.Form frmDskSpace
    End
    Begin VB.Label lblNoSpace 
       AutoSize        =   -1  'True
-      Caption         =   "#"
+      Caption         =   "#713"
       BeginProperty Font 
          Name            =   "Tahoma"
          Size            =   8.25
@@ -98,7 +98,7 @@ Begin VB.Form frmDskSpace
       Left            =   195
       TabIndex        =   11
       Top             =   150
-      Width           =   120
+      Width           =   390
    End
    Begin VB.Shape shpHeading 
       BorderColor     =   &H00000000&
@@ -109,7 +109,7 @@ Begin VB.Form frmDskSpace
    End
    Begin VB.Label lblReqH 
       Alignment       =   1  'Right Justify
-      Caption         =   "#"
+      Caption         =   "#712"
       BeginProperty Font 
          Name            =   "Tahoma"
          Size            =   8.25
@@ -128,7 +128,7 @@ Begin VB.Form frmDskSpace
    End
    Begin VB.Label lblNeedH 
       Alignment       =   1  'Right Justify
-      Caption         =   "#"
+      Caption         =   "#711"
       BeginProperty Font 
          Name            =   "Tahoma"
          Size            =   8.25
@@ -147,7 +147,7 @@ Begin VB.Form frmDskSpace
    End
    Begin VB.Label lblAvailH 
       Alignment       =   1  'Right Justify
-      Caption         =   "#"
+      Caption         =   "#710"
       BeginProperty Font 
          Name            =   "Tahoma"
          Size            =   8.25
@@ -166,7 +166,7 @@ Begin VB.Form frmDskSpace
    End
    Begin VB.Label lblDiskH 
       AutoSize        =   -1  'True
-      Caption         =   "#"
+      Caption         =   "#709"
       BeginProperty Font 
          Name            =   "Tahoma"
          Size            =   8.25
@@ -180,7 +180,7 @@ Begin VB.Form frmDskSpace
       Left            =   240
       TabIndex        =   7
       Top             =   1005
-      Width           =   120
+      Width           =   390
    End
    Begin VB.Shape shpSpace 
       BorderColor     =   &H00000000&

@@ -28,7 +28,7 @@ Begin VB.Form frmWelcome
    ShowInTaskbar   =   0   'False
    Begin VB.CommandButton cmdExit 
       Cancel          =   -1  'True
-      Caption         =   "#"
+      Caption         =   "#703"
       BeginProperty Font 
          Name            =   "Tahoma"
          Size            =   8.25
@@ -46,7 +46,7 @@ Begin VB.Form frmWelcome
       Width           =   1440
    End
    Begin VB.CommandButton cmdOK 
-      Caption         =   "#"
+      Caption         =   "#714"
       Default         =   -1  'True
       BeginProperty Font 
          Name            =   "Tahoma"
@@ -73,7 +73,7 @@ Begin VB.Form frmWelcome
    End
    Begin VB.Label lblWelcome 
       AutoSize        =   -1  'True
-      Caption         =   "*"
+      Caption         =   "*200"
       BeginProperty Font 
          Name            =   "Tahoma"
          Size            =   8.25
@@ -92,7 +92,7 @@ Begin VB.Form frmWelcome
    End
    Begin VB.Label lblRunning 
       AutoSize        =   -1  'True
-      Caption         =   "#"
+      Caption         =   "#718"
       BeginProperty Font 
          Name            =   "Tahoma"
          Size            =   8.25

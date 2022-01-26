@@ -39,7 +39,7 @@ Begin VB.Form frmBegin
       Width           =   1170
    End
    Begin VB.Frame fraDir 
-      Caption         =   "#"
+      Caption         =   "#701"
       BeginProperty Font 
          Name            =   "Tahoma"
          Size            =   8.25
@@ -55,7 +55,7 @@ Begin VB.Form frmBegin
       Top             =   2010
       Width           =   7296
       Begin VB.CommandButton cmdChDir 
-         Caption         =   "#"
+         Caption         =   "#702"
          BeginProperty Font 
             Name            =   "Tahoma"
             Size            =   8.25
@@ -73,7 +73,7 @@ Begin VB.Form frmBegin
          Width           =   2310
       End
       Begin VB.Label lblDestDir 
-         Caption         =   "#"
+         Caption         =   "#gstrDestDir"
          BeginProperty Font 
             Name            =   "Tahoma"
             Size            =   8.25
@@ -92,7 +92,7 @@ Begin VB.Form frmBegin
    End
    Begin VB.CommandButton cmdExit 
       Cancel          =   -1  'True
-      Caption         =   "#"
+      Caption         =   "#703"
       BeginProperty Font 
          Name            =   "Tahoma"
          Size            =   8.25
@@ -118,7 +118,7 @@ Begin VB.Form frmBegin
    End
    Begin VB.Label lblInstallMsg 
       AutoSize        =   -1  'True
-      Caption         =   "*"
+      Caption         =   "*100|101"
       BeginProperty Font 
          Name            =   "Tahoma"
          Size            =   8.25
@@ -137,7 +137,7 @@ Begin VB.Form frmBegin
    End
    Begin VB.Label lblBegin 
       AutoSize        =   -1  'True
-      Caption         =   "#"
+      Caption         =   "#704"
       BeginProperty Font 
          Name            =   "Tahoma"
          Size            =   8.25

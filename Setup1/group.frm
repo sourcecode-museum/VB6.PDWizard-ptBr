@@ -52,7 +52,7 @@ Begin VB.Form frmGroup
    End
    Begin VB.CommandButton cmdCancel 
       Cancel          =   -1  'True
-      Caption         =   "#"
+      Caption         =   "#2101"
       Height          =   345
       Left            =   2880
       MaskColor       =   &H00000000&
@@ -61,7 +61,7 @@ Begin VB.Form frmGroup
       Width           =   1140
    End
    Begin VB.CommandButton cmdContinue 
-      Caption         =   "#"
+      Caption         =   "#804"
       Default         =   -1  'True
       Height          =   345
       Left            =   1395
@@ -99,25 +99,25 @@ Begin VB.Form frmGroup
    End
    Begin VB.Label lblGroups 
       AutoSize        =   -1  'True
-      Caption         =   "#"
+      Caption         =   "#803"
       Height          =   195
       Left            =   1080
       TabIndex        =   6
       Top             =   1950
-      Width           =   120
+      Width           =   390
    End
    Begin VB.Label lblGroup 
       AutoSize        =   -1  'True
-      Caption         =   "#"
+      Caption         =   "#802"
       Height          =   195
       Left            =   1080
       TabIndex        =   5
       Top             =   1170
-      Width           =   120
+      Width           =   390
    End
    Begin VB.Label lblMain 
       AutoSize        =   -1  'True
-      Caption         =   "#"
+      Caption         =   "#801"
       Height          =   195
       Left            =   180
       TabIndex        =   4
